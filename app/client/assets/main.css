@@ -1,0 +1,355 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    width: 800px;
+    margin: 0 auto;
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.header {
+    text-align: center;
+}
+
+.header-img {
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.header-sponsor-img {
+    background: white;
+    padding: 5px;
+}
+
+.nav-bar {
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 8px 10px;
+    color: #0166CF;
+    width: 90px;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+}
+
+.selected {
+    background-color: rgb(241, 241, 241);
+}
+
+.header {
+    position: relative;
+    width: 800px
+}
+
+.header-title {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+.header-title > h1,h2,h3 {
+    padding: 0 5px;
+}
+
+.header-web-name-block {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-sponsor-container {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text {
+    background-color: #fff;
+    color: #004B9A;
+    display: inline-block;
+}
+
+.sponsored-text {
+    background-color: #fff;
+    color: #004B9A;
+    font-style: italic;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#content {
+    padding: 0px 10px;
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+
+#content > .page-text {
+    font-family: Raleway;
+    line-height: 25px;
+}
+
+#content > .page-text > h1 {
+    font-family: 'Share Tech Mono';
+    text-align: center;
+}
+
+#content > h1 {
+    text-align: center;
+}
+
+.frc-link {
+    font-style: italic;
+}
+
+.event-calendar {
+    width: 100%;
+}
+
+#counter {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.counter-label {
+    text-align: center;
+    font-size: 25px;
+}
+
+.counter-container {
+    width: 175px;
+}
+
+.counter-line {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin-right: 40px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+
+}
+
+.counter-line:last-child {
+    margin-right: 0;
+}
+
+.counter-line-number {
+    font-family: 'Press Start 2P';
+    font-weight: bold;
+    font-size: 25px;
+    height: 30px;
+}
+
+.history-entry {
+    margin-bottom: 85px;
+}
+
+.history-achievement-title {
+    color: #0166CF;
+    background: white;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #0166CF;
+}
+
+.history-achievement {
+    color: #0166CF;
+    background: white;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.history-school {
+    color: white;
+    background: #0166CF;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.history-container {
+    margin-bottom: 15px;
+    background: #0166CF;
+}
+
+.history-container-img {
+    margin-bottom: 10px;
+}
+
+.history-schools-container {
+    padding: 3px 5px;
+}
+
+.history-schools-container * {
+    margin-right: 5px;
+}
+
+.history-container-robot {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.history-container-robot-name {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    line-height: 40px;
+    font-size: 36px;
+    font-family: 'Share Tech Mono';
+    color: #0166CF;
+    background: white;
+}
+
+.history-container-awards {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    width: 400px;
+}
+
+.history-year {
+    text-align: center;
+}
+
+.history-year-number {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.history-year-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.sponsor-level-container {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+}
+
+.sponsor-level-info {
+    display: inline-block;
+    color: #001F3F;
+    font-style: italic;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #001F3F;
+}
+
+.sponsors-year {
+    margin-bottom: 10px;
+}
+
+.sponsors-year-label {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.sponsor-level-img-container {
+    border: 1px solid lightgrey;
+}
+
+.sponsor-info {
+    float: right;
+    width: 370px;
+    font-weight: normal;
+    margin-left: 15px;
+}
+
+.sponsor {
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid lightgrey;
+    margin: 0 0 15px 0;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sponsor:hover {
+    border-color: #0166CF;
+    box-shadow: 0 0 1px #0166CF;
+}
+
+.sponsor-info-img {
+    max-height: 250px;
+    max-width: 350px;
+}
+
+.sponsor-img-container {
+    width: 350px;
+    height: 225px;
+}
+
+.sponsor-img {
+    display: block;
+    max-height: 200px;
+    max-width: 350px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.sponsor-name {
+    text-align: center;
+    font-size: 30px;
+    line-height: 200px;
+    text-align: center;
+    width: 280px;
+    height: 200px;
+    margin: auto;
+}
+
+.sponsor-thanks {
+    margin-bottom: 15px;
+}
+
+.sponsor-line {
+    text-align: center;
+}
+
+.level {
+    margin-bottom: 10px;
+}
+
+.title {
+    width: 737px;
+}
+
+.fixed-width {
+    width: 350px;
+}
+
+.left {
+    margin-right: 10px;
+}

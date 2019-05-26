@@ -1,0 +1,6 @@
+{
+    "title": "History",
+    "header": "Team History",
+    "content": "<div id=\"team-history\"></div>",
+    "script": "/scripts/history.js"
+}

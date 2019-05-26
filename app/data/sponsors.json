@@ -1,0 +1,199 @@
+[
+    {
+        "year": 2019,
+        "sponsors": [
+            {
+                "name": "The Foundery",
+                "logo_url": "https://foundery.com/wp-content/uploads/2016/03/TheFoundery-Logo.png",
+                "level": "TITLE",
+                "info": "The Foundery is an industrial-grade maker space located at Port Covington in Baltimore City, and the home of the Baltimore Bolts. Check out the Foundery's class schedule to learn some awesome new skills!",
+                "link": "https://foundery.com/",
+                "is_private": false
+            },
+            {
+                "name": "FIRST Chesapeake",
+                "logo_url": "/assets/images/sponsor-logos/FirstChesapeake-logo-small.png",
+                "level": "PLAT",
+                "link": "https://www.firstchesapeake.org/",
+                "is_private": false
+            },
+            {
+                "name": "Tiresias Technologies",
+                "logo_url": "/assets/images/sponsor-logos/tiresiastechnologieslogo940.jpg",
+                "level": "GOLD",
+                "link": "http://www.tiresiastech.com",
+                "is_private": false
+            },
+            {
+                "name": "Applied Control Engineering",
+                "logo_url": "/assets/images/sponsor-logos/ace_logo.png",
+                "level": "GOLD",
+                "link": "https://www.ace-net.com/",
+                "is_private": false
+            },
+            {
+                "name": "ISA - Baltimore/Washington Section",
+                "logo_url": "/assets/images/sponsor-logos/ISA_BaltimoreWashington_1ColBlk.jpg",
+                "level": "BRONZE",
+                "link": "https://www.isa.org/baltimorewashington-dc/",
+                "is_private": false
+            },
+            {
+                "name": "The Abell Foundation",
+                "logo_url": "/assets/images/sponsor-logos/abell-logo-short.png",
+                "level": "TITLE",
+                "info": "The Abell Foundation is committed to supporting children and youth who are educationally vulnerable while also preserving educational options that serve advanced learners. For 3 years, they have supported the Bolts as an after-school program which helps fill the gaps in school-day offerings.",
+                "link": "https://www.abell.org/education",
+                "is_private": false
+            },
+            {
+                "name": "Bryan & Sarah Jariwala",
+                "level": "SILVER",
+                "is_private": true
+            },
+            {
+                "name": "Maryland Space Business Roundtable",
+                "logo_url": "/assets/images/sponsor-logos/msbr.png",
+                "level": "GOLD",
+                "link": "http://www.mdspace.org/stem-education.html",
+                "is_private": false
+            },
+            {
+                "name": "Creatrix, Inc",
+                "logo_url": "/assets/images/sponsor-logos/05-Bronze-Creatrix-logo.png",
+                "level": "BRONZE",
+                "is_private": false,
+                "link": "https://www.creatrixinc.com/"
+            },
+            {
+                "name": "Let's Go Boys & Girls",
+                "logo_url": "/assets/images/sponsor-logos/05-Bronze-LetsGoBoysGirls-logo-160.png",
+                "level": "BRONZE",
+                "is_private": false,
+                "link": "http://www.letsgoboysandgirls.com/"
+            }
+        ]
+    },
+    {
+        "year": 2018,
+        "sponsors": [
+            {
+                "name": "The Abell Foundation",
+                "logo_url": "/assets/images/sponsor-logos/abell-logo.png",
+                "level": "TITLE",
+                "link": "https://www.abell.org/education",
+                "is_private": false
+            },
+            {
+                "name": "Baltimore Robotics Center",
+                "logo_url": "/assets/images/sponsor-logos/Balto-Robotics-CTR-logo-new.png",
+                "level": "TITLE",
+                "link": "http://baltimoreroboticscenter.com/",
+                "is_private": false
+            },
+            {
+                "name": "Open Works",
+                "logo_url": "/assets/images/sponsor-logos/openworks-logo-1.jpg",
+                "level": "TITLE",
+                "link": "https://www.openworksbmore.com/",
+                "is_private": false
+            },
+            {
+                "name": "TiePoint-bkm Engineering, LLC",
+                "logo_url": "/assets/images/sponsor-logos/TiePoint-BKM-Logo.png",
+                "level": "TITLE",
+                "link": "http://www.tiepoint-bkm.com/",
+                "is_private": false
+            },
+            {
+                "name": "Bezos Family Foundation",
+                "logo_url": "/assets/images/sponsor-logos/bezos-family-foundation.jpeg",
+                "level": "PLAT",
+                "link": "https://www.bezosfamilyfoundation.org/",
+                "is_private": false
+            },
+            {
+                "name": "Maryland Space Business Roundtable",
+                "logo_url": "/assets/images/sponsor-logos/msbr.png",
+                "level": "PLAT",
+                "link": "http://www.mdspace.org/stem-education.html",
+                "is_private": false
+            },
+            {
+                "name": "Applied Control Engineering",
+                "logo_url": "/assets/images/sponsor-logos/ace_logo.png",
+                "level": "GOLD",
+                "link": "https://www.ace-net.com/",
+                "is_private": false
+            },
+            {
+                "name": "D Patterson Design Studio",
+                "logo_url": "/assets/images/sponsor-logos/dpattersondesign-logo.png",
+                "level": "SILVER",
+                "link": "https://dpattersondesignstudio.com/",
+                "is_private": false
+            },
+            {
+                "name": "Emergent Space Technologies",
+                "logo_url": "/assets/images/sponsor-logos/emergent-logo-hi-res-transparent.png",
+                "level": "SILVER",
+                "link": "https://www.emergentspace.com/",
+                "is_private": false
+            }
+        ]
+    },
+    {
+        "year": 2017,
+        "sponsors": [
+            {
+                "name": "The Abell Foundation",
+                "logo_url": "/assets/images/sponsor-logos/abell-logo.png",
+                "level": "TITLE",
+                "link": "https://www.abell.org/education",
+                "is_private": false
+            },
+            {
+                "name": "Baltimore Robotics Center",
+                "logo_url": "/assets/images/sponsor-logos/Balto-Robotics-CTR-logo-new.png",
+                "level": "TITLE",
+                "link": "http://baltimoreroboticscenter.com/",
+                "is_private": false
+            },
+            {
+                "name": "Open Works",
+                "logo_url": "/assets/images/sponsor-logos/openworks-logo-1.jpg",
+                "level": "TITLE",
+                "link": "https://www.openworksbmore.com/",
+                "is_private": false
+            },
+            {
+                "name": "Maryland Space Business Roundtable",
+                "logo_url": "/assets/images/sponsor-logos/msbr.png",
+                "level": "PLAT",
+                "link": "http://www.mdspace.org/stem-education.html",
+                "is_private": false
+            },
+            {
+                "name": "Stanley Black & Decker",
+                "logo_url": "/assets/images/sponsor-logos/stanley-black-and-decker.png",
+                "level": "TITLE",
+                "link": "https://www.stanleyblackanddecker.com/social-responsibility/empower-makers",
+                "is_private": false
+            },
+            {
+                "name": "NASA",
+                "logo_url": "/assets/images/sponsor-logos/nasaLogo.png",
+                "level": "TITLE",
+                "link": "https://www.nasa.gov/offices/education/about/index.html",
+                "is_private": false
+            },
+            {
+                "name": "Sylvan Learning Center",
+                "logo_url": "/assets/images/sponsor-logos/newsylvan_4c.png",
+                "level": "OTHER",
+                "link": "https://www.sylvanlearning.com/",
+                "is_private": false
+            }
+        ]
+    }
+]

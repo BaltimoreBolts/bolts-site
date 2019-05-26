@@ -1,0 +1,6 @@
+{
+    "title": "Sponsors",
+    "header": "Thank you to our sponsors!",
+    "content": "<div class=\"sponsor-thanks\">The Baltimore Bolts appreciates all the support from the local community. Every sponsor, big and small, helps to ensure that we can serve our mission of creating opportunities for Baltimore city students. If you are interested in supporting the team, more information can found in our <a href=\"https://drive.google.com/file/d/0B-hehxp9Nwi8ak9NSXpXN3o0MTNoUkJsVm1nTVBjdmJEeXJB/view?usp=sharing\">sponsorship packet</a>.</div><div id=\"sponsor-list\">",
+    "script": "/scripts/sponsors.js"
+}

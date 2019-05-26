@@ -1,0 +1,60 @@
+[
+    {
+        "year": 2019,
+        "game": "DESTINATION: DEEP SPACE",
+        "game_picture": "/assets/images/2019/FRC-2019-Social-Assets_launch-programs-fb-cover.jpg",
+        "robot_name": "Shango",
+        "robot_picture": "/assets/images/2019/robot.png",
+        "team_picture": "/assets/images/2019/team.jpg",
+        "schools": [
+            "Baltimore Polytechnic Institute",
+            "Western High",
+            "National Academy Foundation",
+            "REACH! Partnership School",
+            "Baltimore City College",
+            "Benjamin Franklin High School @ Masonville Cove"
+        ],
+        "awards": []
+    },
+    {
+        "year": 2018,
+        "game": "Power Up!",
+        "game_picture": "/assets/images/2018/game.jpg",
+        "robot_name": "Iron Giant",
+        "robot_picture": "/assets/images/2018/robot.jpg",
+        "team_picture": "/assets/images/2018/team.jpg",
+        "schools": [
+            "Baltimore Polytechnic Institute",
+            "Western High",
+            "Mergenthaler Vocational-Technical High",
+            "Paul Laurence Dunbar High",
+            "National Academy Foundation"
+        ],
+        "awards": [
+            "CHS Greater DC Regional - Semi-Finalists",
+            "CHS Central MD Regional - District Event Finalist!",
+            "CHS District Championship"
+        ]
+    },
+    {
+        "year": 2017,
+        "game": "Steamworks!",
+        "robot_name": "Raiden",
+        "robot_picture": "/assets/images/2017/robot.jpg",
+        "game_picture": "/assets/images/2017/game.jpg",
+        "team_picture": "/assets/images/2017/team.jpg",
+        "schools": [
+            "Western High",
+            "Mergenthaler Vocational-Technical High",
+            "Paul Laurence Dunbar High",
+            "National Academy Foundation"
+        ],
+        "awards": [
+            "CHS Southwest VA Regional - Rookie Inspiration Award Winners and Semi-Finalists",
+            "CHS Central MD Regional - Rookie All Star Award Winners and Quarter Finalists",
+            "CHS District Championship - Rookie Inspiration Award Winners",
+            "Battle O’ Baltimore - Event Champions!",
+            "Ramp Riot - Event Finalist!"
+        ]
+    }
+]

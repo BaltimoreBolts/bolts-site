@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="/assets/main.css" rel="stylesheet">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=$GTAG"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '$GTAG');
+        </script>
+    </head>
+    <body>
+        <script>
+            const loadPage = (page) => fetch(`/pages/${page}.json`)
+                .then(response => response.json())
+                .then(pageData => {
+                    if (pageData.script) {
+                        return fetch(pageData.script)
+                            .then(res => res.text())
+                            .then(js => {
+                                pageData.js = js;
+                                return pageData;
+                            });
+                    }
+
+                    return pageData;
+                })
+                .then(pageData => {
+                    return {
+                        title: pageData.title,
+                        html: `<h1>${pageData.header}</h1><div class="page-text">${pageData.content}</div>`,
+                        js: pageData.js
+                    };
+                });
+
+            const pages = {
+                home: loadPage('home'),
+                events: loadPage('events'),
+                contact: loadPage('contact'),
+                about: loadPage('about'),
+                history: loadPage('history'),
+                sponsors: loadPage('sponsors'),
+                notfound: '<h1>Uh oh!</h1><div>Couldn\'t find that page, sorry :(</div>'
+            };
+
+            function getPageHTML(pageId) {
+                return Promise.resolve(pages[pageId] || pages.notfound);
+            }
+
+            function changePage(eventOrPageId) {
+                let page;
+                if (typeof eventOrPageId === 'string') {
+                    page = eventOrPageId;
+                } else {
+                    page = eventOrPageId.target.id;
+                }
+
+                const content = document.querySelector('#content');
+
+                getPageHTML(page).then(pageData => {
+
+                    const navButtons = document.querySelectorAll('.nav-button');
+                    navButtons.forEach(button => {
+                        if (button.id === page) {
+                            button.classList.add('selected');
+                        } else {
+                            button.classList.remove('selected');
+                        }
+                    });
+
+                    content.innerHTML = pageData.html;
+
+                    const scriptTag = document.createElement('script');
+                    scriptTag.innerHTML = pageData.js;
+                    content.appendChild(scriptTag);
+
+                    if (history.pushState) {
+                        history.pushState(null, null, page);
+                    }
+
+                    // update GA with this pageview
+                    document.title = pageData.title ? `${pageData.title} | Baltimore Bolts` : 'Baltimore Bolts';
+                    gtag('config', '$GTAG', { 'page_path': '/' + page });
+                });
+            }
+
+            window.onload = () => {
+                const destPage = window.location.hash.split('#')[1];
+                changePage(destPage || 'home');
+            };
+            window.onhashchange = () => {
+                const pageName = window.location.hash.substr(1);
+                if (Object.keys(pages).includes(pageName)) {
+                    changePage(pageName);
+                } else {
+                    changePage('notfound');
+                }
+            }
+        </script>
+        <div class="header">
+            <img class="header-img" width="800" src="/assets/images/20180311_120636.jpg"/>
+            <div class="header-title">
+                <div class="header-web-name-block">
+                    <h1 class="header-text">Baltimore Bolts</h1>
+                    <h2 class="header-text">Baltimore's FIRST Robotics Team</h2>
+                </div>
+                <div class="header-sponsor-container">
+                    <h3 class="sponsored-text">sponsored by</h3>
+                    <div class="header-sponsor-img-container">
+                        <img class="header-sponsor-img" width="300px" height="90px" src="https://foundery.com/wp-content/uploads/2016/03/TheFoundery-Logo.png"/>
+                        <img class="header-sponsor-img" width="300px" height="90px" src="assets/images/sponsor-logos/abell-logo-header.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <div class="nav-button" id="home" onclick="changePage(event)">
+                Home
+            </div>
+            <div class="nav-button" id="events" onclick="changePage(event)">
+                Events
+            </div>
+            <div class="nav-button" id="contact" onclick="changePage(event)">
+                Contact
+            </div>
+            <div class="nav-button" id="about" onclick="changePage(event)">
+                About
+            </div>
+            <div class="nav-button" id="history" onclick="changePage(event)">
+                History
+            </div>
+            <div class="nav-button" id="sponsors" onclick="changePage(event)">
+                Sponsors
+            </div>
+        </div>
+        <div id="content"></div>
+    </body>
+</html>
