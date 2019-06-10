@@ -4,7 +4,7 @@
         "game": "DESTINATION: DEEP SPACE",
         "game_picture": "/assets/images/2019/FRC-2019-Social-Assets_launch-programs-fb-cover.jpg",
         "robot_name": "Shango",
-        "robot_picture": "/assets/images/2019/robot.png",
+        "robot_picture": "/assets/images/2019/robot.jpg",
         "team_picture": "/assets/images/2019/team.jpg",
         "schools": [
             "Baltimore Polytechnic Institute",
@@ -14,7 +14,9 @@
             "Baltimore City College",
             "Benjamin Franklin High School @ Masonville Cove"
         ],
-        "awards": []
+        "awards": [
+            "CHS District Bethesda MD - Team Spirit Award Winners"
+        ]
     },
     {
         "year": 2018,
