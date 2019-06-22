@@ -6,8 +6,7 @@
                 "name": "The Foundery",
                 "logo_url": "assets/images/sponsor-logos/TheFoundery-Logo.png",
                 "level": "TITLE",
-                "info": "The Foundery is an industrial-grade maker space located at Port Covington in Baltimore City, and the home of the Baltimore Bolts. Check out the Foundery's class schedule to learn some awesome new skills!",
-                "link": "https://foundery.com/",
+                "info": "The Foundery is an industrial-grade maker space located at Port Covington in Baltimore City, and the former home of the Baltimore Bolts.",
                 "is_private": false
             },
             {
@@ -18,10 +17,10 @@
                 "is_private": false
             },
             {
-                "name": "Tiresias Technologies",
-                "logo_url": "/assets/images/sponsor-logos/tiresiastechnologieslogo940.jpg",
+                "name": "Baltimore Design Works",
+                "logo_url": "/assets/images/sponsor-logos/bdwlogofinal.png",
                 "level": "GOLD",
-                "link": "http://www.tiresiastech.com",
+                "link": "http://www.baltimoredesignworks.com",
                 "is_private": false
             },
             {
@@ -44,6 +43,13 @@
                 "level": "TITLE",
                 "info": "The Abell Foundation is committed to supporting children and youth who are educationally vulnerable while also preserving educational options that serve advanced learners. For 3 years, they have supported the Bolts as an after-school program which helps fill the gaps in school-day offerings.",
                 "link": "https://www.abell.org/education",
+                "is_private": false
+            },
+            {
+                "name": "Emergent Space Technologies",
+                "logo_url": "/assets/images/sponsor-logos/emergent-logo-hi-res-transparent.png",
+                "level": "SILVER",
+                "link": "https://www.emergentspace.com/",
                 "is_private": false
             },
             {
@@ -72,6 +78,7 @@
                 "is_private": false,
                 "link": "http://www.letsgoboysandgirls.com/"
             }
+            
         ]
     },
     {
