@@ -1,6 +1,6 @@
 {
   "name": "bolts",
-  "version": "22.0.0",
+  "version": "23.0.0",
   "description": "",
   "main": "app/index.js",
   "scripts": {
