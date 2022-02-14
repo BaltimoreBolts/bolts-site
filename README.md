@@ -1,3 +1,7 @@
+**NOTES**
+----
+This repo & site retired in Jan 2021.
+
 Requirements for development
 ----
 - [Docker](https://www.docker.com/)
